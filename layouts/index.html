@@ -1,0 +1,46 @@
+{{ define "main" }}
+
+<div  class="container mx-5" id="content">
+  <div class="row mx-5">
+    <h1>Experience</h1>
+    {{ range $.Site.Data.experience -}}
+      <div class="row align-items-start">
+        <h3>{{ .company }}</h3>
+        <h4>{{ .role }}</h4>
+        <p>{{ .start }} - {{ .end }}</p>
+        <ul class="list-group">
+          <li class="list-group-item">
+            Tech used
+          </li>
+          {{ range .skills }}
+          <li class="list-group-item">
+            {{ . }}
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+  <hr class="my-4">
+    {{ end }}
+  </div>
+  <div class="row mx-5">
+    <h1>Certificates</h1>
+      <div class="row align-items-start">
+        <p>Microsoft Certified: Azure Fundamentals AZ-900</p>
+        <p>Mulesoft Certified Developer</p>
+      </div>
+    <hr class="my-4">
+  </div>
+  <div class="row mx-5">
+    <h1>Education</h1>
+    {{ range $.Site.Data.education -}}
+      <div class="row align-items-start">
+        <p>{{ .school }}</p>
+        <p>{{ .subject }}</p>
+        <p>{{ .start }} - {{ .end }}</p>
+      </div>
+      <hr class="my-4">
+    {{ end }}
+  </div>
+</div>
+
+{{ end }}

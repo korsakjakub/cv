@@ -1,3 +1,10 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://cv.korsak.xyz/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Jakub Korsak CV'
+theme = 'cv-jk'
+relativeURLS = true
+
+[module]
+  [[module.mounts]]
+    source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+    target = "assets/js/bootstrap.bundle.min.js"

@@ -1,0 +1,32 @@
+- company: Bluesoft
+  role: DevOps / Platform Engineer
+  start: "06.2022"
+  end: "current"
+  skills:
+    - CI - Github Actions, Jenkins
+    - CD - ArgoCD
+    - ☁️  - Azure, AWS
+    - 🚢 - AKS, EKS, docker-compose
+    - 🤖 - Terraform, Ansible
+    - 💻 - Python, Java (Spring boot), Go, Typescript
+- company: Center for theoretical Physics (Polish Academy of Sciences)
+  role: Master's student
+  start: "07.2021"
+  end: "06.2022"
+  skills:
+    - 💻 - Python, LaTeX
+    - Theory of quantum computation
+- company: Accenture
+  role: Banking developer intern
+  start: "03.2021"
+  end: "06.2021"
+  skills:
+    - 💻 - COBOL, JCL, MainFrame
+    - Working in a big project
+- company: Gofin
+  role: Web developer intern
+  start: "06.2019"
+  end: "09.2019"
+  skills:
+    - 💻 - PHP 7, MySQL, JQuery + BootStrap 4
+
