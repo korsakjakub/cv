@@ -1,7 +1,7 @@
 {{ define "main" }}
 
-<div  class="container mx-5" id="content">
-  <div class="row mx-5">
+<div  class="container-fluid px-xl-5 px-lg-5" style="max-width: 1000px;" id="content">
+  <div class="row px-xl-5 px-lg-5">
     <h1>Experience</h1>
     {{ range $.Site.Data.experience -}}
       <div class="row align-items-start">
@@ -22,7 +22,7 @@
   <hr class="my-4">
     {{ end }}
   </div>
-  <div class="row mx-5">
+  <div class="row px-xl-5 px-lg-5">
     <h1>Certificates</h1>
       <div class="row align-items-start">
         <p>Microsoft Certified: Azure Fundamentals AZ-900</p>
@@ -30,7 +30,7 @@
       </div>
     <hr class="my-4">
   </div>
-  <div class="row mx-5">
+  <div class="row px-xl-5 px-lg-5">
     <h1>Education</h1>
     {{ range $.Site.Data.education -}}
       <div class="row align-items-start">
