@@ -4,10 +4,10 @@
   end: "current"
   skills:
     - CI - Github Actions, Jenkins
-    - CD - ArgoCD
+    - CD - ArgoCD, managed services in Azure and AWS (Azure App Service, Azure Container Instance, ECS)
     - ☁️  - Azure, AWS
-    - 🚢 - AKS, EKS, docker-compose
-    - 🤖 - Terraform, Ansible
+    - 🚢 - AKS, EKS, docker-compose, big fan of Jib, GraalVM, and distroless
+    - 🤖 - Terraform, Ansible, Shell (POSIX or not :))
     - 💻 - Python, Java (Spring boot), Go, Typescript
 - company: Center for theoretical Physics (Polish Academy of Sciences)
   role: Master's student
