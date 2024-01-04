@@ -7,8 +7,8 @@
     - CD - ArgoCD, managed services in Azure and AWS (Azure App Service, Azure Container Instance, ECS)
     - ☁️  - Azure, AWS
     - 🚢 - AKS, EKS, docker-compose, big fan of Jib, GraalVM, and distroless
-    - 🤖 - Terraform, Ansible, Shell (POSIX or not :))
-    - 💻 - Python, Java (Spring boot), Go, Typescript
+    - 🤖 - Terragrunt, Terraform, Ansible
+    - 💻 - Java (Spring boot), Go, React Typescript
 - company: Center for theoretical Physics (Polish Academy of Sciences)
   role: Master's student
   start: "07.2021"
@@ -22,7 +22,6 @@
   end: "06.2021"
   skills:
     - 💻 - COBOL, JCL, MainFrame
-    - Working in a big project
 - company: Gofin
   role: Web developer intern
   start: "06.2019"

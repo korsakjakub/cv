@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.3.1",
+    "@picocss/pico": "^1.5.11",
     "bootstrap-icons": "^1.10.5"
   }
 }
