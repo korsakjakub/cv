@@ -1,7 +1,15 @@
+- company: HSBC
+  role: SRE / Platform Engineer
+  start: "02.2025"
+  end: "09.2025"
+  skills:
+    - Designed and implemented a Disaster Recovery integration
+    - Redesigned and replatformed the onboarding process to the platform
+    - Navigated and coordinated various automations across a global team
 - company: Bluesoft
   role: DevOps / Platform Engineer
   start: "06.2022"
-  end: "current"
+  end: "02.2025"
   skills:
     - CI - Github Actions, Jenkins
     - CD - ArgoCD, managed services in Azure and AWS (Azure App Service, Azure Container Instance, ECS)
