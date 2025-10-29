@@ -1,3 +1,9 @@
+- company: Tenvalleys
+  role: DevOps
+  start: "09.2025"
+  end: "current"
+  skills:
+    - Streamlining various DevOps platform components so everything works together better
 - company: HSBC
   role: SRE / Platform Engineer
   start: "02.2025"
