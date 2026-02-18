@@ -63,7 +63,7 @@ jobs:
     environment:
       name: azure
       url: https://red-ocean-070ed9b03.4.azurestaticapps.net
-    runs-on: ubuntu-slim
+    runs-on: ubuntu-latest
     needs: build
     steps:
       - name: Download a Build Artifact
