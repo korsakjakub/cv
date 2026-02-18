@@ -62,7 +62,10 @@ jobs:
     steps:
       - name: Download a Build Artifact
         uses: actions/download-artifact@v7.0.0
-      - run: ls
+      - name: Extract artifact
+        run: |
+          mkdir -p ./extracted
+          tar -xf github-pages/artifact.tar -C ./extracted
       - name: deploy
         uses: Azure/static-web-apps-deploy@v1
         with:
