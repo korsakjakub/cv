@@ -65,7 +65,7 @@ jobs:
       - name: Extract artifact
         run: |
           mkdir -p ./extracted
-          tar -xf github-pages/artifact.tar -C ./extracted
+          tar -xf artifact.tar -C ./extracted
       - name: deploy
         uses: Azure/static-web-apps-deploy@v1
         with:
